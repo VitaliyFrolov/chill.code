@@ -1,0 +1,727 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Roboto', sans-serif;
+
+    color: black;
+    background-color: white;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+p, h1, h2, h3 {
+    margin: 0;
+}
+
+.message-header {
+    width: auto;
+    padding-top: 7px;
+    padding-bottom: 7px;
+
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 2px;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+    
+    background-color: black;
+}
+
+.main-header {
+    width: auto;
+    min-height: 66px;
+    padding-left: 11px;
+    padding-right: 11px; 
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: rgba(255, 255, 255, 50%);
+}
+
+.logo-holder {
+    margin: 15px 125px 15px 0px;
+}
+
+.nav {
+    margin-right: auto;
+}
+
+.main-header ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 23px;
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.icons-header {
+    display: flex;
+    gap: 10px;
+}
+
+.main-info {
+    width: auto;
+    min-height: 810px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    background-image: url(./boostedusa-img/Rectangle.jpg);
+    background-size: 100%;
+}
+
+.main-info ul {
+    display: flex;
+    gap: 12px;
+}
+
+.btn {
+    padding: 5px 37px 5px 37px;
+    border: 1px solid rgba(255, 74, 50, 1);
+    border-radius: 35px;
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.5px;
+    text-align: center;
+    color: white;
+
+    background-color:rgba(255, 74, 50, 1);
+}
+
+.line {
+    width: 70px;
+    height: 2px;
+    background: rgba(207, 207, 207, 1);
+}
+
+/*sticky*/
+
+.sticky {
+    position: sticky;
+    top: 0;
+}
+
+.main-info h1 {
+    margin-top: 53px;
+    margin-bottom: 14px;
+
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 50.63px;
+    text-align: center;
+}
+
+.main-info p {
+    margin-bottom: 22px;
+
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18.75px;
+    letter-spacing: 1px;
+    text-align: center;
+} 
+
+.line-gallery {
+    width: auto;
+
+    background-color: black;
+}
+
+.line-img-container {
+    margin-left: 120px;
+    margin-right: 120px;
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    background-color: inherit;
+}
+
+.line-img-container li {
+    min-width: 280px;
+    min-height: 41px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boosted-boards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.boosted-boards h2 {
+    margin-top: 52px;
+    margin-bottom: 17px;
+
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+}
+
+.boosted-boards p {
+    margin-bottom: 25.11px;
+
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18.75px;
+    text-align: center;
+}
+
+.boost-bord-section {
+    margin: 44.89px 140px 20px 140px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.boost-bord-container-1 {
+    width: 580px;
+    height: 580px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+
+    background-image: url(./boostedusa-img/bord-box-2.jpg);
+    background-size: 100%;
+}
+
+.boost-bord-container-2 {
+    width: 580px;
+    height: 580px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+
+    background-image: url(./boostedusa-img/bord-box-1.jpg);
+    background-size: 100%;
+}
+
+.boost-bord-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boost-bord-box h3 {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+}
+
+.boost-bord-box p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.44px;
+    text-align: center;
+}
+
+.electric-skateboards-container {
+    width: auto;
+    min-height: 736px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-image: url(./boostedusa-img/electric-skateboards-back.jpg);
+    background-size: 100%;
+}
+
+.electric-skateboards-container h3 {
+    margin-top: 44px;
+
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18.75px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.electric-skateboards-container h2 {
+    margin-top: 11px;
+    margin-bottom: 15px;
+
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 50.64px;
+    text-align: center;
+}
+
+.electric-skateboards-container p {
+    margin-bottom: 20px;
+
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18.75px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.boosted-rev-line-container {
+    margin: 44px 130px 45px 130px;
+
+    display: flex;
+    gap: 20px;
+}
+
+.boosted-rev-text {
+    margin-left: 20px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.boosted-rev-text h3 {
+    margin-bottom: 21px;
+
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38.4px;    
+}
+
+.boosted-rev-text p {
+    margin-bottom: 18px;
+
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22.5px;
+    text-align: left;
+}
+
+.btn-rev {
+    width: 101px;
+    height: 33px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 5px 16px 5px 16px;
+    border: 1px solid rgba(255, 74, 50, 1);
+    border-radius: 35px;
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.5px;
+    text-align: center;
+    color: white;
+
+    background-color:rgba(255, 74, 50, 1);
+}
+
+.in-stock-line {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*color text*/
+
+.text-red {
+    color: rgba(255, 74, 50, 1);
+}
+
+.sold-out {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+
+.in-stock-line-box-1 {
+    width: 480px;
+    height: 480px;
+
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(./boostedusa-img/in-stock-1.jpg);
+    background-size: 100%;
+}
+
+.in-stock-line-box-2 {
+    width: 480px;
+    height: 480px;
+
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(./boostedusa-img/in-stock-2.jpg);
+    background-size: 100%;
+}
+
+.in-stock-line-box-3 {
+    width: 480px;
+    height: 480px;
+
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(./boostedusa-img/in-stock-3.jpg);
+    background-size: 100%;
+}
+
+.in-stock-text-box h3 {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+}
+
+.in-stock-text-box p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.44px;
+    text-align: center;
+}
+
+.video-container {
+    margin: 55px 11.8055555556% 64px 11.8055555556%;
+    
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.accessories-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.accessories-container h2 {
+    margin-bottom: 21.59px;
+
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.shop-line-accessories {
+    margin-top: 42.41px;
+    margin-bottom: 4px;
+
+    display: flex;
+    gap: 20px;
+}
+
+.shop-line-accessories-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.shop-line-accessories-box img {
+    margin-bottom: 12px;
+}
+
+.shop-line-accessories-box div {
+    margin-top: 3px;
+    
+    display: flex;
+    gap: 4px;
+}
+
+.decorative-line {
+    width: auto;
+    height: 66px;
+    box-shadow: 10px 0px 10px 0px rgba(41, 44, 61, 0.34);
+}
+
+.advantages-container {
+    width: auto;
+    min-height: 308px;
+    margin-top: 28px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+    color: white;
+    background-color: black;
+}
+
+.form-advantages {
+    min-width: 330px;
+    min-height: 257.5px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-advantages h3 {
+    margin-top: 5px;
+    margin-bottom: 25px;
+
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+}
+
+.form-advantages p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22.5px;
+    text-align: center;
+}
+
+.footer-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    background-color: rgba(247, 247, 247, 1);
+}
+
+.footer-container-nav h3 {
+    margin-bottom: 10px;
+
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.footer-container-nav p {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.footer-container-info h3 {
+    margin-bottom: 12px;
+
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.footer-container-info div {
+    margin-bottom: 12px;
+}
+
+.footer-container-info p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.footer-bot-line {
+    width: auto;
+    min-height: 70px;
+    margin-left: 9.02777777778%;
+    margin-right: 9.02777777778%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-bot-line div {
+    display: flex;
+}
+
+.pay-info {
+    gap: 4px;
+}
+
+.switch-1 {
+    position: relative;
+    bottom: 120px;
+    right: 700px;
+}
+
+.switch-2 {
+    position: relative;
+    bottom: 120px;
+    left: 700px;
+}
+
+/*hover*/
+
+.btn:hover {
+    background-color: #5f5e5f;
+    border: 1px solid #5f5e5f;
+    transition: all 0.5s ease;
+}
+
+.btn-rev:hover {
+    background-color: #5f5e5f;
+    border: 1px solid #5f5e5f;
+    transition: all 0.5s ease;
+}
+
+.popup-btn:hover {
+    background-color: #5f5e5f;
+    border: 1px solid #5f5e5f;
+    transition: all 0.5s ease;
+}
+
+.user-nav li:hover {
+    color: rgba(255, 74, 50, 1);
+    transition: all 0.5s ease;
+}
+
+/*zoom*/
+
+.zoom {
+    overflow: hidden;
+}
+
+.zoom img {
+    transition: 1s;
+}
+
+.zoom img:hover {
+    transform: scale(1.1);
+}
+
+/*popup*/
+
+.popup-container {
+    width: 580px;
+    min-height: 400px;
+    border-radius: 5px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+
+    background-color: white;
+    color: #323232;
+    box-shadow: 10px 10px 10px 10px rgb(41 44 61 / 34%);
+
+    display: none;
+}
+
+.popup-box {
+    padding: 24px;
+    display: inherit;
+    flex-direction: column;
+    align-items: center;
+}
+
+.popup-container h2 {
+    margin-bottom: 12px;
+
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.popup-container p {
+    margin-bottom: 24px;
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.form-popup {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-popup legend {
+    margin-bottom: 12px;
+    
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.form-popup p {
+    padding-top: 12px;
+
+    font-size: 11px;
+    line-height: 1.5;
+    text-rendering: optimizeLegibility;
+    text-align: justify;
+}
+
+.popup-search-string {
+    width: auto;
+    height: 25px;
+    border: 1px solid;
+}
+
+.popup-btn {
+    width: auto;
+    height: 30px;
+    border: 1px solid rgba(255, 74, 50, 1);
+    border-radius: 35px;
+    margin-bottom: 5px;
+
+    background-color: rgba(255, 74, 50, 1);
+    color: white;
+    cursor: pointer;
+}
+
+.exit-btn {
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-radius: 50%;
+    background-color: inherit;
+
+    position: absolute;
+    left: 590px;
+    bottom: 400px;
+}
+
+/*hidden*/
+
+.hidden {
+    display: flex;
+    flex-direction: column;
+}
